@@ -1,6 +1,19 @@
 # Supersonar
 
+## Overview
+
 Supersonar is an application that uses machine learning to identify sound sources, their directions, and characteristics. Initially focused on processing game audio (Minecraft) to recognize and visualize sound locations in a virtual environment, with plans to expand to real-world audio environments.
+
+## Repository Structure
+
+```plaintext
+supersonar/
+├── app/               # Main application code
+│   ├── client/        # Frontend web interface
+@@ -19,9 +20,11 @@ supersonar/
+├── package.json       # Root package.json
+└── README.md          # Project documentation
+```
 
 ## Installation
 
