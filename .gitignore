@@ -1,6 +1,21 @@
 # Dependency directories
 node_modules/
 
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables file
+.env
+.env.test
+
+
+# Gatsby files
+.cache/
+
 # Large media files
 *.mp3
 *.wav
@@ -11,3 +26,7 @@ node_modules/
 *.flv
 *.avi
 *.mkv
+
+# VS Code directories and files
+.vscode/
+.history/
