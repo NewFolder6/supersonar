@@ -1,10 +1,13 @@
 {
   "name": "supersonar",
   "version": "1.0.0",
-  "description": "Supersonar is an innovative application that uses machine learning to identify sound sources, their directions, and characteristics. Initially focused on processing game audio (Minecraft) to recognize and visualize sound locations in a virtual environment, with plans to expand to real-world audio environments.",
+  "description": "Supersonar is an application that uses machine learning to identify sound sources, their directions, and characteristics. Initially focused on processing game audio (Minecraft) to recognize and visualize sound locations in a virtual environment, with plans to expand to real-world audio environments.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "minecraft": "node ./utilities/minecraft-extractor/minecraft.js",
+    "audio:list": "node ./utilities/audio/devices.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/NewFolder6/supersonar/issues"
   },
-  "homepage": "https://github.com/NewFolder6/supersonar#readme"
+  "homepage": "https://github.com/NewFolder6/supersonar#readme",
+  "dependencies": {
+    "mineflayer": "^4.26.0",
+    "mic": "^2.1.2"
+  }
 }
