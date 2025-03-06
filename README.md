@@ -19,3 +19,9 @@ supersonar/
 ├── package.json       # Root package.json
 └── README.md          # Project documentation
 ```
+## Scalability Considerations
+
+The system is designed to scale in several dimensions:
+- From game audio to real-world environments
+- From basic sound identification to complex audio scene analysis
+- From desktop to mobile platforms

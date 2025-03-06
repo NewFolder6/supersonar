@@ -1,0 +1,13 @@
+# Dependency directories
+node_modules/
+
+# Large media files
+*.mp3
+*.wav
+*.ogg
+*.webm
+*.mp4
+*.mov
+*.flv
+*.avi
+*.mkv
