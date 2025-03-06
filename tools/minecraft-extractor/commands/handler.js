@@ -4,7 +4,7 @@ function trackme(bot, username, tokens) {
     const playerEntity = bot.players
     if(playerEntity) {
         const { x, y, z } = playerEntity.position;
-        console.log(username + " is at X=" + x + ", Y=" + y + ", Z=" + z);
+        console.log(`📍 ${username} is at X=${x}, Y=${y}, Z=${z}`);
     }
 }
 

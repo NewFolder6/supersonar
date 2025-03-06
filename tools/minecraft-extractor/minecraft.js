@@ -4,4 +4,4 @@ const { createBot } = require('./bot');
 const bot = createBot();
 
 // Additional script-specific logic can be added here
-console.log('Minecraft bot script running...');
+console.log('🎮 Minecraft bot script running...');

@@ -14,11 +14,11 @@ function createBot(options = {}) {
 
     // Setup event handlers
     bot.once('spawn', () => {
-        console.log('Bot successfully created!');
+        console.log('🤖 Bot successfully created!');
     });
 
     bot.once('error', (error) => {
-        console.log('Error creating bot:', error);
+        console.log('⚠️ Error creating bot:', error);
     });
 
     bot.on('chat', (username, message) => {
@@ -28,7 +28,7 @@ function createBot(options = {}) {
             const cmd = tokens.shift()?.toLowerCase();
             
             commandsHandler.handleCommand(bot, username, cmd, tokens);
-            console.log(`Command from ${username}: ${cmd} ${tokens.join(' ')}`);
+            console.log(`💬 Command from ${username}: ${cmd} ${tokens.join(' ')}`);
         }
     });
 

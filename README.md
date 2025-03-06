@@ -8,11 +8,17 @@ Supersonar is an application that uses machine learning to identify sound source
 
 ```plaintext
 supersonar/
-├── app/               # Main application code
-│   ├── client/        # Frontend web interface
-@@ -19,9 +20,11 @@ supersonar/
-├── package.json       # Root package.json
-└── README.md          # Project documentation
+├── app/              
+│   ├── client/        
+│   └── server/
+├── tools/
+│   ├── audio/
+│   └── minecraft-extractor/
+│       ├── commands/
+│       ├── bot.js
+│       └── minecraft.js      
+├── package.json       
+└── README.md          
 ```
 
 ## Installation

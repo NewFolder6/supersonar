@@ -93,7 +93,7 @@ function parseDeviceOutput(output, platform) {
         }
       });
     } catch (err) {
-      console.warn('Failed to parse Windows device output:', err);
+      console.warn('⚠️ Failed to parse Windows device output:', err);
     }
   }
   
@@ -104,9 +104,9 @@ function printDevices() {
   getAudioDevices()
     .then(devices => {
       // Print input devices
-      console.log('=== Available Audio Input Devices ===');
+      console.log('🎤 === Available Audio Input Devices ===');
       if (devices.input.length === 0) {
-        console.log('No audio input devices found');
+        console.log('❌ No audio input devices found');
       } else {
         devices.input.forEach((device, index) => {
           console.log(`[${index}] ${device.name}`);
@@ -119,9 +119,9 @@ function printDevices() {
       }
 
       // Print output devices
-      console.log('=== Available Audio Output Devices ===');
+      console.log('🔊 === Available Audio Output Devices ===');
       if (devices.output.length === 0) {
-        console.log('No audio output devices found');
+        console.log('❌ No audio output devices found');
       } else {
         devices.output.forEach((device, index) => {
           console.log(`[${index}] ${device.name}`);
@@ -134,7 +134,7 @@ function printDevices() {
       }
     })
     .catch(err => {
-      console.error('Failed to get audio devices:', err);
+      console.error('❌ Failed to get audio devices:', err);
     });
 }
 
@@ -145,7 +145,7 @@ async function getDefaultDevice(type = 'output') {
     const deviceList = type === 'input' ? devices.input : devices.output;
     return deviceList.find(d => d.isDefault) || deviceList[0] || null;
   } catch (err) {
-    console.error('Error getting default device:', err);
+    console.error('❌ Error getting default device:', err);
     return null;
   }
 }
