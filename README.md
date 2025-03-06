@@ -89,13 +89,13 @@ The audio capturer module allows you to:
 
 ```javascript
 // Import the audio capturer
-const audioCapturer = require('./utilities/audio/capturer');
+const audioCapturer = require('./tools/audio/capturer');
 
 // Set output directory for recordings
-audioCapturer.setOutputDirectory('./my-recordings');
+audioCapturer.setOutputDirectory('./recordings');
 
 // Start recording
-audioCapturer.startRecording('test-recording.wav', {
+audioCapturer.startRecording('demo.wav', {
   sampleRate: '44100',
   channels: '2',
   bitDepth: '16'
