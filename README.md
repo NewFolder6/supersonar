@@ -4,9 +4,8 @@
 
 <hr>
 <p align="center">
-<a href="https://www.deepseek.com/"><img alt="Homepage" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true"/></a>
-[![⭐](https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat&color=yellow)](https://github.com/NewFolder6/supersonar/stargazers)
-[![📧](https://img.shields.io/badge/Contact-Email-red)](mailto:hotinyuk@gmail.com)
+<a href="https://github.com/NewFolder6/supersonar/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat&color=yellow"/></a>
+<a href="mailto:hotinyuk@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Contact-Email-red"/></a>
 </p>
 
 # Super Sonar
