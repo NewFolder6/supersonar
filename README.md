@@ -34,6 +34,13 @@ supersonar/
 
 ## Quick Start
 
+### Requirement
+
+- Node.js 14 or higher
+- npm 6 or higher
+
+### Installation
+
 Ensure that you have Node.js installed. It is recommended to use the latest version.
 
 ```bash

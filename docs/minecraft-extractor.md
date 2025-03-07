@@ -9,23 +9,15 @@ The Minecraft Extractor is a specialized tool designed to connect to Minecraft s
 ![Minecraft Extractor Overview](../docs/images/Screenshot%202025-03-06%20170041.png)
 *Screenshot of the Minecraft Extractor in action showing the bot connected to a server*
 
-## Requirements
-
-- Minecraft Java Edition (tested with version 1.18.2)
-- Minecraft Paper Server (for controlled environment setup)
-- Node.js 14 or higher
-- npm 6 or higher
-
 ## Setup
 
 ### Server Configuration
 
-1. Download and set up a Paper server from [PaperMC](https://papermc.io/downloads)
+1. Download and set up a minecraft server. I'd like to use PaperMC's from [PaperMC](https://papermc.io/downloads)
 2. Configure the `server.properties` file:
 
    ```properties
-   enable-command-block=true
-   spawn-protection=0
+   online-mode:false
    ```
 
 ### Client Configuration
@@ -63,9 +55,6 @@ The Minecraft extractor bot responds to several in-game commands:
 
 Commands are entered in the Minecraft chat and must be prefixed with "bot".
 
-![Bot Commands](../docs/images/Screenshot%202025-03-06%20170041.png)
-*Screenshot showing in-game commands and bot responses*
-
 ## Data Collection
 
 The bot collects the following data:
@@ -95,9 +84,6 @@ For optimal data collection, create a controlled testing environment:
 2. Place different sound-producing blocks (note blocks, redstone, etc.)
 3. Create command block sequences to trigger sounds
 4. Build separate areas for different sound categories
-
-![Testing Environment](../docs/images/Screenshot%202025-03-06%20170041.png)
-*Screenshot of a controlled testing environment with various sound sources*
 
 ## Resources
 
