@@ -1,6 +1,15 @@
-# Supersonar
+<!-- markdownlint-disable first-line-h1 -->
+<!-- markdownlint-disable html -->
+<!-- markdownlint-disable no-duplicate-header -->
 
-![⭐](https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat)
+<p align="center">
+  
+[![⭐](https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat&color=yellow)](https://github.com/NewFolder6/supersonar/stargazers)
+[![📧](https://img.shields.io/badge/Contact-Email-red)](hotinyuk@gmail.com)
+
+</p>
+
+# Super Sonar
 
 ## Overview
 
