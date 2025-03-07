@@ -30,6 +30,10 @@ function createBot(options = {}) {
             commandsHandler.handleCommand(bot, username, cmd, tokens);
             console.log(`💬 Command from ${username}: ${cmd} ${tokens.join(' ')}`);
         }
+
+        if(message.startsWith("demo")) {
+
+        }
     });
 
     return bot;

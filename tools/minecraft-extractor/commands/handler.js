@@ -14,6 +14,11 @@ function greet(bot) {
 
 }
 
+function initilizeForTask(bot){
+    bot.chat('/gamemode creative');
+    bot.chat('/time set day');
+}
+
 module.exports = {
     handleCommand: (bot, username, cmd, tokens) => {
         switch (cmd) {
@@ -22,6 +27,9 @@ module.exports = {
                 break;
             case "trackme":
                 trackme(bot, username, tokens);
+                break;
+            case "init":
+                initilizeForTask(bot);
                 break;
             default:
                 greet(bot);

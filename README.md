@@ -45,6 +45,7 @@ supersonar/
 
 - Node.js 14 or higher
 - npm 6 or higher
+- arecord(Linux) or [sox](sourceforge.net/projects/sox) (Mac/Window)
 
 ### Installation
 

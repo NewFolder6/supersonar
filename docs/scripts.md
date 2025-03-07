@@ -6,15 +6,9 @@
 npm start
 ```
 
-## List audio devices
-
-```bash
-npm run audio:list
-```
-
-This command displays all available audio input and output devices on your system.
-
 ## Record audio sample
+
+>I am using npm mic to record the audio, and it is dependent on arecord (Linux) or [sox](sourceforge.net/projects/sox). I am using sox on my Windows computer and to have it properly set up you must add it to your environment variables path, too.
 
 ```bash
 npm run record-audio
