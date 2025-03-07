@@ -6,7 +6,7 @@
 
 The Minecraft Extractor is a specialized tool designed to connect to Minecraft servers and extract audio cues and environmental data. This data is used to train the Supersonar AI for sound recognition and spatial awareness.
 
-![Minecraft Extractor Overview](../assets/images/minecraft-extractor-overview.png)
+![Minecraft Extractor Overview](../docs/images/Screenshot%202025-03-06%20170041.png)
 *Screenshot of the Minecraft Extractor in action showing the bot connected to a server*
 
 ## Requirements
@@ -22,6 +22,7 @@ The Minecraft Extractor is a specialized tool designed to connect to Minecraft s
 
 1. Download and set up a Paper server from [PaperMC](https://papermc.io/downloads)
 2. Configure the `server.properties` file:
+
    ```properties
    enable-command-block=true
    spawn-protection=0
@@ -42,11 +43,12 @@ npm run minecraft
 ```
 
 This will:
+
 1. Connect a bot to your configured Minecraft server
 2. Begin listening for in-game sounds
 3. Record the sounds with their spatial positioning data
 
-![Minecraft Bot Connection](../assets/images/minecraft-bot-connection.png)
+![Minecraft Bot Connection](../docs/images/Screenshot%202025-03-06%20170041.png)
 *Screenshot showing successful connection to the Minecraft server*
 
 ## Bot Commands
@@ -61,7 +63,7 @@ The Minecraft extractor bot responds to several in-game commands:
 
 Commands are entered in the Minecraft chat and must be prefixed with "bot".
 
-![Bot Commands](../assets/images/minecraft-bot-commands.png)
+![Bot Commands](../docs/images/Screenshot%202025-03-06%20170041.png)
 *Screenshot showing in-game commands and bot responses*
 
 ## Data Collection
@@ -74,6 +76,7 @@ The bot collects the following data:
 - Environmental context (biome, time of day)
 
 All sound data is saved in the format:
+
 ```json
 {
   "soundId": "minecraft:block.stone.break",
@@ -93,7 +96,7 @@ For optimal data collection, create a controlled testing environment:
 3. Create command block sequences to trigger sounds
 4. Build separate areas for different sound categories
 
-![Testing Environment](../assets/images/minecraft-testing-environment.png)
+![Testing Environment](../docs/images/Screenshot%202025-03-06%20170041.png)
 *Screenshot of a controlled testing environment with various sound sources*
 
 ## Resources
@@ -101,23 +104,4 @@ For optimal data collection, create a controlled testing environment:
 - [Mineflayer Documentation](https://github.com/PrismarineJS/mineflayer)
 - [Minecraft Sound Events Wiki](https://minecraft.fandom.com/wiki/Sounds.json)
 - [Paper Server Documentation](https://docs.papermc.io/)
-
-## Troubleshooting
-
-- **Bot disconnects frequently**: Check server TPS (ticks per second) and memory allocation
-- **Sounds not being captured**: Verify you're within hearing distance (16 blocks)
-- **Command not recognized**: Ensure you prefix commands with "bot" and use the correct syntax
-
-## Advanced Usage
-
-Advanced users can modify the extractor behavior by editing the configuration files:
-
-```bash
-# Open configuration file
-nano tools/minecraft-extractor/config.js
-```
-
-Adjust parameters like connection details, sound filtering criteria, and recording preferences.
-
-![Advanced Configuration](../assets/images/minecraft-advanced-config.png)
-*Screenshot showing the configuration options for the Minecraft extractor*
+- [Hello Minecraft Launcher](https://github.com/HMCL-dev/HMCL)

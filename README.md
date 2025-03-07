@@ -1,15 +1,8 @@
 # Supersonar
 
+⭐ [GitHub stars](https://github.com/NewFolder6/supersonar/stargazers)
+
 > AI-powered sound recognition and spatial awareness system
-
-[![GitHub stars](https://img.shields.io/github/stars/NewFolder6/supersonar)](https://github.com/NewFolder6/supersonar/stargazers)
-
-## Links
-
-- [GitHub Repository](https://github.com/NewFolder6/supersonar)
-- [Issues](https://github.com/NewFolder6/supersonar/issues)
-- [Pull Requests](https://github.com/NewFolder6/supersonar/pulls)
-- [Releases](https://github.com/NewFolder6/supersonar/releases)
 
 ## Overview
 
