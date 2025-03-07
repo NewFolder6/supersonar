@@ -2,13 +2,13 @@
 <!-- markdownlint-disable html -->
 <!-- markdownlint-disable no-duplicate-header -->
 
+# Super Sonar
+
 <hr>
 <p align="center">
 <a href="https://github.com/NewFolder6/supersonar/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat&color=yellow"/></a>
 <a href="mailto:hotinyuk@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Contact-Email-red"/></a>
 </p>
-
-# Super Sonar
 
 ## Overview
 
