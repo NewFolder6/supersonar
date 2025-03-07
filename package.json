@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "minecraft": "node ./tools/minecraft-extractor/minecraft.js",
-    "audio:list": "node ./tools/audio/devices.js"
+    "record-audio": "node ./tools/scripts/record-audio.js"
   },
   "repository": {
     "type": "git",

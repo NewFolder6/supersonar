@@ -1,8 +1,6 @@
 # Supersonar
 
-⭐ [GitHub stars](https://github.com/NewFolder6/supersonar/stargazers)
-
-> AI-powered sound recognition and spatial awareness system
+![⭐](https://img.shields.io/github/stars/HMCL-dev/HMCL?style=flat)
 
 ## Overview
 
@@ -11,11 +9,8 @@ Supersonar is an application that uses machine learning to identify sound source
 ## Documentation
 
 - [Installation Guide](docs/installation.md)
-- [Dependencies](docs/dependencies.md)
 - [Available Scripts](docs/scripts.md)
-- [Audio Utilities](docs/audio-utilities.md)
-- [Examples](docs/examples.md)
-- [Minecraft Extractor](docs/minecraft-extractor.md)
+- [Dependencies](docs/dependencies.md)
 
 ## Repository Structure
 
@@ -24,10 +19,14 @@ supersonar/
 ├── app/              
 │   ├── client/        
 │   └── server/
+├── data/
+│   ├── recordings/
+│   └── template/   
+├── docs/ 
 ├── tools/
 │   ├── audio/
-│   └── minecraft-extractor/
-├── docs/             
+│   ├── minecraft-extractor/
+│   └── scripts/            
 ├── package.json       
 └── README.md          
 ```
