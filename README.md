@@ -12,7 +12,7 @@
 
 ## Overview
 
-Supersonar is an application that uses machine learning to identify sound sources, their directions, and characteristics. Initially focused on processing game audio (Minecraft) to recognize and visualize sound locations in a virtual environment, with plans to expand to real-world audio environments. Consequently, I am looking into utitlizing this application as an accessbility solutions by visulizing sound cues.
+Supersonar is an application that uses machine learning to identify sound sources, their directions, and characteristics. Initially focused on processing game audio (Minecraft) to recognize and visualize sound locations in a virtual environment, with plans to expand to real-world audio environments. This application has potential as an accessibility solution by providing visual representations of audio cues.
 
 ## Documentation
 
