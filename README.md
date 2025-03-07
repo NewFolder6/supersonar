@@ -1,6 +1,6 @@
 # Supersonar
 
-![⭐](https://img.shields.io/github/stars/HMCL-dev/HMCL?style=flat)
+![⭐](https://img.shields.io/github/stars/NewFolder6/supersonar?style=flat)
 
 ## Overview
 
