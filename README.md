@@ -22,6 +22,7 @@ Supersonar is an application that uses machine learning to identify sound source
 - [Available Scripts](docs/scripts.md)
 - [Audio Utilities](docs/audio-utilities.md)
 - [Examples](docs/examples.md)
+- [Minecraft Extractor](docs/minecraft-extractor.md)
 
 ## Repository Structure
 
@@ -52,4 +53,3 @@ cd supersonar
 # Install dependencies
 npm install
 ```
-
