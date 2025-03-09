@@ -7,7 +7,7 @@ const duration = args[0] ? parseInt(args[0]) : 5;
 
 console.log(duration);
 
-const outputDir = path.join(__dirname, '../../recordings/raw');
+const outputDir = path.join(__dirname, '../../data/recordings/raw');
 const timestamp = Date.now();
 const outputFilePath = path.join(outputDir, `demo.raw`);
 
