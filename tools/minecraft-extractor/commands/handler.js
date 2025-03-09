@@ -1,4 +1,6 @@
 const mineflayer = require('mineflayer');
+//https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md
+
 
 function trackme(bot, username, tokens) {
     const player = bot.players[username];
@@ -61,7 +63,7 @@ function initilizeForTask(bot){
     bot.chat('/gamerule doWeatherCycle false');
     bot.chat('/gamerule doMobSpawning false');
     // make him flaot in the air
-    bot.creative.flyTo(bot.entity.position);
+    bot.creative.startFlying();
     bot.chat('Bot is ready for task.');
 }
 
