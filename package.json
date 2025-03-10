@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/NewFolder6/supersonar#readme",
   "dependencies": {
-    "mineflayer": "^4.26.0",
-    "mic": "^2.1.2"
+    "fastify": "^5.2.1",
+    "mic": "^2.1.2",
+    "mineflayer": "^4.26.0"
   }
 }
