@@ -8,7 +8,7 @@
     "start": "node index.js",
     "minecraft": "node ./tools/minecraft-extractor/minecraft.js",
     "audio:record": "node ./tools/scripts/record-audio.js",
-    "audio:convert": "node ./tools/scripts/convert-raw-to-wav.js"
+    "data:test": "node ./tools/scripts/data-label.js"
   },
   "repository": {
     "type": "git",
