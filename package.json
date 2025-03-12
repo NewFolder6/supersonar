@@ -22,8 +22,12 @@
   },
   "homepage": "https://github.com/NewFolder6/supersonar#readme",
   "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "@xboxreplay/xboxlive-auth": "^4.1.0",
     "fastify": "^5.2.1",
     "mic": "^2.1.2",
-    "mineflayer": "^4.26.0"
+    "mineflayer": "^4.26.0",
+    "prismarine-auth": "^2.7.0",
+    "rimraf": "^6.0.1"
   }
 }
