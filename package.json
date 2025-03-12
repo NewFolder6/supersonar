@@ -8,7 +8,8 @@
     "start": "node index.js",
     "minecraft": "node ./tools/minecraft-extractor/minecraft.js",
     "audio:record": "node ./tools/scripts/record-audio.js",
-    "data:test": "node ./tools/scripts/data-label.js"
+    "data:test": "node ./tools/scripts/data-label.js",
+    "ml:train": "node ./ml/trainModel.js"
   },
   "repository": {
     "type": "git",
