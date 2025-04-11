@@ -9,7 +9,8 @@
     "minecraft": "node ./tools/minecraft-extractor/minecraft.js",
     "audio:record": "node ./tools/scripts/record-audio.js",
     "data:test": "node ./tools/scripts/data-label.js",
-    "ml:train": "node ./tools/scripts/model-train.js"
+    "ml:train": "node ./tools/scripts/model-train.js",
+    "predict": "node ./tools/scripts/predict-sound.js"
   },
   "repository": {
     "type": "git",
